@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:shoeplug/ui/theme/theme.dart';
+import 'package:shoeplug/ui/widgets/custom_bottom_nav_bar.dart';
 
 import 'components/search_block.dart';
 import 'components/top_bar.dart';
-import '../theme/theme.dart';
-import '../widgets/custom_bottom_nav_bar.dart';
 import 'components/discount_banner.dart';
 import 'components/product_sections.dart';
 import 'components/title_block.dart';

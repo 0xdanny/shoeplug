@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'title_text.dart';
-import '../../theme/theme.dart';
+import '../../../theme/theme.dart';
 
 class TitleBlock extends StatelessWidget {
   const TitleBlock({

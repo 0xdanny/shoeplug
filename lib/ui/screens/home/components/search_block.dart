@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'custom_icon.dart';
-import '../../theme/colors.dart';
-import '../../theme/theme.dart';
+import '../../../theme/colors.dart';
+import '../../../theme/theme.dart';
 
 class SearchBlock extends StatelessWidget {
   const SearchBlock({

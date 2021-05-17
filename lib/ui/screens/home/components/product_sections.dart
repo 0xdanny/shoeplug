@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../core/models/product.dart';
+import '../../../../core/models/product.dart';
 import 'product_card.dart';
 import 'section_title.dart';
 

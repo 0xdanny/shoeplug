@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shoeplug/ui/home/home_screen.dart';
+import '../../ui/screens/home/home_screen.dart';
 
 class AppRoutes {
   static const homePage = '/home';
