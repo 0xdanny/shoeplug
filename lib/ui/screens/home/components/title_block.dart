@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'title_text.dart';
+
 import '../../../theme/theme.dart';
+import 'title_text.dart';
 
 class TitleBlock extends StatelessWidget {
   const TitleBlock({
@@ -12,17 +13,17 @@ class TitleBlock extends StatelessWidget {
     return Container(
       margin: AppTheme.padding,
       child: Row(
-        crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           Column(
             crossAxisAlignment: CrossAxisAlignment.start,
+            // ignore: prefer_const_literals_to_create_immutables
             children: <Widget>[
-              TitleText(
+              const TitleText(
                 text: 'Our',
                 fontSize: 27,
                 fontWeight: FontWeight.w400,
               ),
-              TitleText(
+              const TitleText(
                 text: 'Products',
                 fontSize: 27,
                 fontWeight: FontWeight.w700,

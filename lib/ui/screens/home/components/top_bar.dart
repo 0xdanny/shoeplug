@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'custom_icon.dart';
+
 import '../../../theme/theme.dart';
+import 'custom_icon.dart';
 
 class TopBar extends StatelessWidget {
   const TopBar({
@@ -14,7 +15,7 @@ class TopBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
-          RotatedBox(
+          const RotatedBox(
             quarterTurns: 4,
             child: CustomIcon(
               icon: Icon(

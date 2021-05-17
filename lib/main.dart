@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'ui/screens/home/home_screen.dart';
-import 'ui/theme/theme.dart';
 
 import 'core/routing/router.dart';
+import 'ui/screens/home/home_screen.dart';
+import 'ui/theme/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

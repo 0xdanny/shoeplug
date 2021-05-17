@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../../theme/colors.dart';
+
 import '../../../../core/models/product.dart';
+import '../../../theme/colors.dart';
 
 class ProductCard extends StatelessWidget {
   const ProductCard({
@@ -16,9 +17,9 @@ class ProductCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.only(left: 20),
+      padding: const EdgeInsets.only(left: 20),
       child: SizedBox(
-        width: (width),
+        width: width,
         child: GestureDetector(
           onTap: () {},
           child: Column(
@@ -27,7 +28,7 @@ class ProductCard extends StatelessWidget {
               AspectRatio(
                 aspectRatio: aspectRatio,
                 child: Container(
-                  padding: EdgeInsets.all(20),
+                  padding: const EdgeInsets.all(20),
                   decoration: BoxDecoration(
                     color: AppColors.lightBlue.withOpacity(0.1),
                     borderRadius: BorderRadius.circular(15),
@@ -41,15 +42,15 @@ class ProductCard extends StatelessWidget {
               const SizedBox(height: 10),
               Text(
                 product.title,
-                style: TextStyle(color: Colors.black),
+                style: const TextStyle(color: Colors.black),
                 maxLines: 2,
               ),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "\N${product.price}",
-                    style: TextStyle(
+                    "\n${product.price}",
+                    style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
                       color: AppColors.skyBlue,

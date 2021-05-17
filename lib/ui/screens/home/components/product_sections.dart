@@ -9,13 +9,13 @@ class NewestAdditions extends StatelessWidget {
     return Column(
       children: [
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 20),
           child: SectionTitle(
             title: "Newest Additions",
             ontap: () {},
           ),
         ),
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Row(
@@ -23,13 +23,14 @@ class NewestAdditions extends StatelessWidget {
               ...List.generate(
                 demoProducts.length,
                 (index) {
-                  if (demoProducts[index].isPopular)
+                  if (demoProducts[index].isPopular) {
                     return ProductCard(product: demoProducts[index]);
-                  return SizedBox
+                  }
+                  return const SizedBox
                       .shrink(); // here by default width and height is 0
                 },
               ),
-              SizedBox(width: 20),
+              const SizedBox(width: 20),
             ],
           ),
         )
@@ -44,13 +45,13 @@ class PopularProducts extends StatelessWidget {
     return Column(
       children: [
         Padding(
-          padding: EdgeInsets.symmetric(horizontal: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 20),
           child: SectionTitle(
             title: "Popular Products",
             ontap: () {},
           ),
         ),
-        SizedBox(height: 20),
+        const SizedBox(height: 20),
         SingleChildScrollView(
           scrollDirection: Axis.horizontal,
           child: Row(
@@ -58,13 +59,14 @@ class PopularProducts extends StatelessWidget {
               ...List.generate(
                 demoProducts.length,
                 (index) {
-                  if (demoProducts[index].isPopular)
+                  if (demoProducts[index].isPopular) {
                     return ProductCard(product: demoProducts[index]);
-                  return SizedBox
+                  }
+                  return const SizedBox
                       .shrink(); // here by default width and height is 0
                 },
               ),
-              SizedBox(width: 20),
+              const SizedBox(width: 20),
             ],
           ),
         )

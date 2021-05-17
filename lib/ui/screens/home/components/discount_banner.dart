@@ -9,20 +9,20 @@ class DiscountBanner extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
-      margin: EdgeInsets.all(20),
-      padding: EdgeInsets.symmetric(
+      margin: const EdgeInsets.all(20),
+      padding: const EdgeInsets.symmetric(
         horizontal: 20,
         vertical: 15,
       ),
       decoration: BoxDecoration(
-        color: Color(0xFF4A3298),
+        color: const Color(0xFF4A3298),
         borderRadius: BorderRadius.circular(20),
       ),
-      child: Text.rich(
+      child: const Text.rich(
         TextSpan(
           style: TextStyle(color: Colors.white),
           children: [
-            TextSpan(text: "New User\'s Discount\n"),
+            TextSpan(text: "New User's Discount\n"),
             TextSpan(
               text: "Cashback 20%",
               style: TextStyle(

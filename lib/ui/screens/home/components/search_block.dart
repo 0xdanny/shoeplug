@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'custom_icon.dart';
+
 import '../../../theme/colors.dart';
 import '../../../theme/theme.dart';
+import 'custom_icon.dart';
 
 class SearchBlock extends StatelessWidget {
   const SearchBlock({
@@ -20,23 +21,23 @@ class SearchBlock extends StatelessWidget {
               alignment: Alignment.center,
               decoration: BoxDecoration(
                 color: AppColors.lightGrey.withAlpha(100),
-                borderRadius: BorderRadius.all(
+                borderRadius: const BorderRadius.all(
                   Radius.circular(10),
                 ),
               ),
-              child: TextField(
+              child: const TextField(
                 decoration: InputDecoration(
                   border: InputBorder.none,
                   hintText: "Search Products",
                   hintStyle: TextStyle(fontSize: 12),
-                  contentPadding: const EdgeInsets.all(10),
+                  contentPadding: EdgeInsets.all(10),
                   prefixIcon: Icon(Icons.search, color: Colors.black54),
                 ),
               ),
             ),
           ),
-          SizedBox(width: 20),
-          CustomIcon(
+          const SizedBox(width: 20),
+          const CustomIcon(
             icon: Icon(Icons.filter_list, color: Colors.black54),
           ),
         ],

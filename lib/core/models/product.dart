@@ -25,15 +25,15 @@ List<Product> demoProducts = [
   Product(
     id: 1,
     images: [
-      "assets/images/show_1.png",
-      "assets/images/shoe_tilt_2.png",
-      "assets/images/shoe_thumb_3.png",
-      "assets/images/shoe_thumb_4.png",
+      "assets/images/shoe1.jpeg",
+      "assets/images/shoe2.jpeg",
+      "assets/images/shoe3.jpeg",
+      "assets/images/shoe4.jpeg",
     ],
     colors: [
-      Color(0xFFF6625E),
-      Color(0xFF836DB8),
-      Color(0xFFDECB9C),
+      const Color(0xFFF6625E),
+      const Color(0xFF836DB8),
+      const Color(0xFFDECB9C),
       Colors.white,
     ],
     title: "Air Force One™",
@@ -46,18 +46,18 @@ List<Product> demoProducts = [
   Product(
     id: 2,
     images: [
-      "assets/images/shoe_tilt_2.png",
-      "assets/images/shoe_tilt_1.png",
-      "assets/images/shoe_thumb_3.png",
-      "assets/images/shoe_thumb_4.png",
+      "assets/images/shoe2.jpeg",
+      "assets/images/shoe1.jpeg",
+      "assets/images/shoe3.jpeg",
+      "assets/images/shoe4.jpeg",
     ],
     colors: [
-      Color(0xFFF6625E),
-      Color(0xFF836DB8),
-      Color(0xFFDECB9C),
+      const Color(0xFFF6625E),
+      const Color(0xFF836DB8),
+      const Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Nike Sport White ",
+    title: "Nike Sport White",
     price: 50.5,
     description: description,
     rating: 4.1,
@@ -66,15 +66,15 @@ List<Product> demoProducts = [
   Product(
     id: 3,
     images: [
-      "assets/images/shoe_thumb_3.png",
-      "assets/images/shoe_tilt_1.png",
-      "assets/images/shoe_tilt_2.png",
-      "assets/images/shoe_thumb_4.png",
+      "assets/images/shoe3.jpeg",
+      "assets/images/shoe1.jpeg",
+      "assets/images/shoe2.jpeg",
+      "assets/images/shoe4.jpeg",
     ],
     colors: [
-      Color(0xFFF6625E),
-      Color(0xFF836DB8),
-      Color(0xFFDECB9C),
+      const Color(0xFFF6625E),
+      const Color(0xFF836DB8),
+      const Color(0xFFDECB9C),
       Colors.white,
     ],
     title: "Gloves XC Omega - Polygon",
@@ -87,4 +87,4 @@ List<Product> demoProducts = [
 ];
 
 const String description =
-    "Wireless Controller for PS4™ gives you what you want in your gaming from over precision control your games to sharing …";
+    "Premium leather upper for natural comfort, durability and breathability. Padded collar and tongue for added comfort.";

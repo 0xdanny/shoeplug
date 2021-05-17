@@ -18,11 +18,10 @@ class SectionTitle extends StatelessWidget {
       children: [
         TitleText(
           text: title,
-          fontSize: 18,
         ),
         GestureDetector(
           onTap: ontap,
-          child: Text(
+          child: const Text(
             "See More",
             style: TextStyle(color: Color(0xFFBBBBBB)),
           ),
