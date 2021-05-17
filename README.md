@@ -1,5 +1,7 @@
 # The Shoe Plug
 
+[![style: lint](https://img.shields.io/badge/style-lint-4BC0F5.svg)](https://pub.dev/packages/lint)
+
 An e-commerce application written in Flutter
 
 ![Screenshot 1](https://github.com/0xdanny/shoeplug/blob/main/screenshots/ss1.png?raw=true)
