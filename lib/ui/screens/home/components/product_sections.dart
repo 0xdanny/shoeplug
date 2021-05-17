@@ -9,7 +9,7 @@ class NewestAdditions extends StatelessWidget {
     return Column(
       children: [
         Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 20),
+          padding: const EdgeInsets.symmetric(horizontal: 25),
           child: SectionTitle(
             title: "Newest Additions",
             ontap: () {},
@@ -23,9 +23,7 @@ class NewestAdditions extends StatelessWidget {
               ...List.generate(
                 demoProducts.length,
                 (index) {
-                  return ProductCard(
-                      product: demoProducts[
-                          index]); // here by default width and height is 0
+                  return ProductCard(product: demoProducts[index]);
                 },
               ),
               const SizedBox(width: 20),
