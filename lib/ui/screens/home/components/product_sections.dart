@@ -23,11 +23,9 @@ class NewestAdditions extends StatelessWidget {
               ...List.generate(
                 demoProducts.length,
                 (index) {
-                  if (demoProducts[index].isPopular) {
-                    return ProductCard(product: demoProducts[index]);
-                  }
-                  return const SizedBox
-                      .shrink(); // here by default width and height is 0
+                  return ProductCard(
+                      product: demoProducts[
+                          index]); // here by default width and height is 0
                 },
               ),
               const SizedBox(width: 20),
