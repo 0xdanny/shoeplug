@@ -54,7 +54,7 @@ class ProductCard extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "\n${product.price}",
+                    "N${product.price}",
                     style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w600,
@@ -63,13 +63,15 @@ class ProductCard extends StatelessWidget {
                   ),
                   IconButton(
                     onPressed: () {},
+                    iconSize: 18,
                     icon: Icon(
                       Icons.favorite,
                       color: product.isFavourite ? Colors.red : Colors.grey,
                     ),
                   ),
                 ],
-              )
+              ),
+              const SizedBox(height: 10),
             ],
           ),
         ),
