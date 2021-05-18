@@ -11,7 +11,7 @@ class TopBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: AppTheme.padding,
+      padding: padding,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
@@ -24,22 +24,6 @@ class TopBar extends StatelessWidget {
               ),
             ),
           ),
-          // ClipRRect(
-          //   borderRadius: BorderRadius.all(Radius.circular(13)),
-          //   child: Container(
-          //     decoration: BoxDecoration(
-          //       color: Theme.of(context).backgroundColor,
-          //       boxShadow: <BoxShadow>[
-          //         BoxShadow(
-          //           color: Color(0xfff8f8f8),
-          //           blurRadius: 10,
-          //           spreadRadius: 10,
-          //         ),
-          //       ],
-          //     ),
-          //     child: Image.asset("assets/images/user.png"),
-          //   ),
-          // ),
           CircleAvatar(
             child: Image.asset("assets/images/user.png"),
           )

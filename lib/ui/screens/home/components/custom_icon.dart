@@ -15,7 +15,7 @@ class CustomIcon extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: const BorderRadius.all(Radius.circular(13)),
         color: Theme.of(context).backgroundColor,
-        boxShadow: AppTheme.shadow,
+        boxShadow: shadow,
       ),
       child: icon,
     );

@@ -17,7 +17,7 @@ class HomeScreen extends StatelessWidget {
       ),
       body: SafeArea(
         child: Container(
-          height: AppTheme.maxHeight(context) - 50,
+          height: maxHeight(context) - 50,
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [

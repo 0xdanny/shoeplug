@@ -11,7 +11,7 @@ class TitleBlock extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: AppTheme.padding,
+      margin: padding,
       child: Row(
         children: <Widget>[
           Column(

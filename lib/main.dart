@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Shoe Plug',
-      theme: AppTheme.lightTheme.copyWith(
+      theme: lightTheme.copyWith(
         textTheme: GoogleFonts.muliTextTheme(
           Theme.of(context).textTheme,
         ),
